@@ -1,10 +1,16 @@
 :root{
-    --primario:#989898 ;
+    --primario: #9C27B0;
+    --primarioOscuro: #89119D;
+    --secundario: #FFCE00;
+    --secundarioOscuro: rgb(233, 187, 2);
+    --blanco: #FFF;
+    --negro: #000;
+    /*--primario:#989898 ;
     --primarioOacuro:#056CF2 ;
-    --secundario:#76D95B;
+    --secundario:#98df85;
     --secundarioOscuro:#401f0c;
     --blanco:#F2F2F2;
-    --negro: #000;
+    --negro: #000;*/
     --fuentePrincipal:'Staartliches', cursive;
 
 }
@@ -18,8 +24,8 @@ html {
   box-sizing: inherit;
 }
 
-/* Globales*/
 
+/* Globales*/
 body{
     background-color: var(--primario);
     font-size: 1.6rem;
@@ -72,16 +78,22 @@ h3{
     margin: 1rem 0;
 }
 
+
 /*Footer*/
-
 .footer{
-
+    background-color: var(--fuentePrincipal);
+    text-align: center;
+    margin-top: 2rem;
 }
 
-.footer__texto{}
+.footer__texto{
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+    font-size: 2.2rem;
+}
+
 
 /* Navegacion*/
-
 .navegacion{
     background-color: var(--primarioOacuro);
     padding: 1rem 0;
@@ -96,6 +108,6 @@ h3{
     font-size: 3rem;
 }
 
-.navegacion__enlace--activo,
-.navegacion__enlace:hover{}
+/*.navegacion__enlace--activo,
+.navegacion__enlace:hover{}*/
 
